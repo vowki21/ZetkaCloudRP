@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Antique+B1&display=swap');
+html {
+    font-family: 'Shippori Antique B1', sans-serif;
+}
+
+#wrap {
+    position: absolute;
+    display: none;
+    width: 16%;
+    height: 20%;
+    left: 80%;
+    bottom: 55.5%;
+    color: rgba(255, 255, 255, 1.0);
+    z-index: 1;
+	background: rgba(0, 0, 0, 0.75);
+    opacity: 0.875;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom: solid 18px rgb(255, 174, 0);
+
+}
+
+#logo {
+    width: 64px !important;
+    height: 64px !important;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+p {
+    font-size: 1.05vw;
+}
+
+.header {
+    padding-top: 10px;
+    font-weight: normal;
+    opacity: 1;
+    height: 3vw;
+    width: 100%;
+    /* background: rgba(0, 0, 0, 0.4); */
+    background-size: 300% 300%;
+    padding-left: 0px;
+    padding-right: 0px;
+    z-index: 1;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.tekstHeader {
+    padding-bottom: 5px;
+    background-position: 95% 70%;
+    background-size: 12.5% 80%;
+    /* background: rgba(0, 0, 0, 0.4); */
+    text-align: center;
+    z-index: 1;
+}
+
+.stopka1{
+    font-weight: normal;
+    opacity: 1;
+    margin-top: 15.5px;
+    height: 0.9vw;
+    font-size: 0.55vw;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    width: auto;
+    /* background: rgba(0, 0, 0, 0.4); */
+    background-size: 300% 300%;
+    padding-left: 0px;
+    padding-right: 0px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.stopka {
+    font-weight: normal;
+    opacity: 1;
+    height: 0.9vw;
+    font-size: 0.55vw;
+    text-align: center;
+    width: auto;
+    /* background: rgba(0, 0, 0, 0.4); */
+    background-size: 300% 300%;
+    padding-left: 0px;
+    padding-right: 0px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.tekstStopka {
+    position: relative;
+    font-weight: normal;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.sluzby {
+    color: white;
+    font-size: 0.8vw;
+    /* border-color: rgba(0, 0, 0, 0.4); */
+}
+
+.jobs {
+    padding-top: 10px;
+    /* background-color: rgba(0, 0, 0, 0.4); */
+    height: 3vw;
+    width: 100%;
+}
+
+table {
+    text-align: left;
+    color: white;
+}
+
+th,
+td {
+    padding-left: 25px;
+}
+
+th {
+    padding-top: 10px;
+    height: 40px;
+}
+
+tr {
+    font-size: 0.9vw;
+    text-shadow: 1px 1px 1px rgba(48,48,48, 0.4);
+}
+
+tr.heading {
+    font-size: 1vw;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.serverinfo {
+    font-size: 0.7vw;
+    text-align: center;
+}
+
+#bord {
+    background-color: #fff;
+    margin-left: 5.5%;
+    margin-right: 5.5%;
+    padding-bottom: 1px;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+}
+
+.progress {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: right;
+    width: 90%;
+    height: 1.3%;
+    background-color: rgba(48,48,48, 0.4);
+    border-radius: 10px;
+}
+
+.progress div {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient( to right, rgb(18, 105, 202), rgb(0, 242, 96));
+    border-radius: 10px;
+}
+
+.tekstInfo {
+    position: absolute;
+    font-weight: normal;
+    margin-top: 1px;
+    opacity: 1;
+    color: white;
+    font-size: 14px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+}
+
+.stats {
+    display: flex;
+    align-items: center;
+    margin-left: -38px;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+
+ul {
+    display: flex;
+    list-style: none;
+    padding-top: -50px;
+}
+
+i {
+    color: rgb(255, 255, 255);
+    margin-right: 5px;
+}
+
+li {
+
+
+}
+
+li:last-child {
+    border: 0;
+}
+
+.jobs li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 0;
+    font-size: 11px;
+}
+
+@-webkit-keyframes GradientAnim {
+    0% {
+        background-position: 0% 52%;
+    }
+    50% {
+        background-position: 100% 49%;
+    }
+    100% {
+        background-position: 0% 52%;
+    }
+}
+
+@-moz-keyframes GradientAnim {
+    0% {
+        background-position: 0% 52%;
+    }
+    50% {
+        background-position: 100% 49%;
+    }
+    100% {
+        background-position: 0% 52%;
+    }
+}
+
+@keyframes GradientAnim {
+    0% {
+        background-position: 0% 52%;
+    }
+    50% {
+        background-position: 100% 49%;
+    }
+    100% {
+        background-position: 0% 52%;
+    }
+}
